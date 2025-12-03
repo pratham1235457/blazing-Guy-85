@@ -1,0 +1,65 @@
+/* style.css */
+
+/* --- Universal Reset/Setup --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light grey background */
+    color: #333; /* Dark text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --- Header Styling --- */
+header {
+    background-color: #ff4500; /* Orange-red 'blazing' color */
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* --- Container Styling --- */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* --- Specific Element Styling --- */
+#main-text {
+    font-style: italic;
+    color: #6a5acd; /* Medium purple */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* --- Button Styling --- */
+button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e03c00; /* Slightly darker on hover */
+}
